@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "gps": {
+      "latitude": 36.909503,
+      "longitude": 126.69407466
+    }
+  },
+  {
+    "id": 2,
+    "gps": {
+      "latitude": 37.563265,
+      "longitude": 126.803108
+    }
+  },
+  {
+    "id": 3,
+    "gps": {
+      "latitude": 33.921068,
+      "longitude": -118.330054
+    }
+  },
+  {
+    "id": 4,
+    "gps": {
+      "latitude": 33.443011,
+      "longitude": -112.556876
+    }
+  },
+  {
+    "id": 5,
+    "gps": {
+      "latitude": 34.61456,
+      "longitude": -120.188387
+    }
+  },
+  {
+    "id": 6,
+    "gps": {
+      "latitude": 39.926454,
+      "longitude": -122.198393
+    }
+  },
+  {
+    "id": 7,
+    "gps": {
+      "latitude": 43.657608,
+      "longitude": -93.318547
+    }
+  },
+  {
+    "id": 8,
+    "gps": {
+      "latitude": 38.815129,
+      "longitude": -77.642614
+    }
+  },
+  {
+    "id": 9,
+    "gps": {
+      "latitude": 35.435631,
+      "longitude": 139.924555
+    }
+  },
+  {
+    "id": 10,
+    "gps": {
+      "latitude": 31.23245587,
+      "longitude": 121.41254494
+    }
+  }
+]

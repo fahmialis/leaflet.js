@@ -1,19 +1,29 @@
 
 import './App.css';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import markers from './data/marker.json'
 
 function App() {
+  console.log(markers);
   return (
-    <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={true}>
+    <MapContainer center={[36.909503, 126.69407466]} zoom={13} scrollWheelZoom={true}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={[51.505, -0.09]}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
+      {
+        markers.map(marker => {
+        return <Marker 
+        key={marker.id}
+        position={[marker.gps.latitude, marker.gps.longitude]}>
+          <Popup>
+            {
+              [`${marker.gps.latitude}, ${marker.gps.longitude}`]
+            }
+          </Popup>
+        </Marker>
+        })
+      }
     </MapContainer>
   );
 }
