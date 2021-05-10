@@ -1,12 +1,8 @@
-import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+
 import './App.css';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 function App() {
-  function clickMe() {
-
-  }
-  
   return (
     <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={true}>
       <TileLayer
