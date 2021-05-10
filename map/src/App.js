@@ -1,7 +1,6 @@
 
 import './App.css';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-import markers from './data/marker.json'
 import teslaData from './data/tesla-station.json'
 
 function App() {

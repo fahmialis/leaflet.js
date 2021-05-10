@@ -1,2 +1,2 @@
 # leaflet.js
-map with marker using leaftlet js
+map with marker using react leaftlet js
