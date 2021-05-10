@@ -22,13 +22,12 @@ function App() {
             <div>
               <h3>{
                 `Name : ${tesla.name},
-                Address:
-                  street: ${tesla.address.street},
-                  city: ${tesla.address.city},
-                  state: ${tesla.address.state},
-                  zip: ${tesla.address.zip}
-                  country: ${tesla.address.country}
-                  region: ${tesla.address.region}
+                Street: ${tesla.address.street},
+                City: ${tesla.address.city},
+                State: ${tesla.address.state},
+                ZIP Code: ${tesla.address.zip},
+                Country: ${tesla.address.country},
+                Region: ${tesla.address.region}
                 `
               }</h3>
             </div>
